@@ -58,3 +58,129 @@
 2025-07-12 00:55:57 INFO  TC002_LoginTest:26 - Password enter
 2025-07-12 00:55:57 INFO  TC002_LoginTest:29 - Click Login
 2025-07-12 00:55:59 INFO  TC002_LoginTest:46 - TC002_LoginTest Completed
+2025-07-12 21:53:21 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 21:53:21 INFO  TC001_AccountRegistraionTest:17 - Clicked on MyAccount Link
+2025-07-12 21:53:31 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 21:53:31 ERROR TC001_AccountRegistraionTest:46 - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b7ce4564a56ad73a2137b6e1a2ad812d, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\devsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54974}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54974/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b7ce4564a56ad73a2137b6e1a2ad812d
+2025-07-12 21:53:33 INFO  TC002_LoginTest:15 - *******Starting TC002_LoginTest***************
+2025-07-12 21:53:43 ERROR TC002_LoginTest:41 - Login Test Failed due to: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Login']"}
+  (Session info: chrome=138.0.7204.101)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1e4cfe8b240154b81f5fbd4bdc9b89c9, findElement {using=xpath, value=//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\devsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55037/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e4cfe8b240154b81f5fbd4bdc9b89c9
+2025-07-12 21:54:10 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\devsr\eclipse-workspace\OpenCartV121\crossBrowserTesting.xml
+
+2025-07-12 21:54:11 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 21:54:12 INFO  TC001_AccountRegistraionTest:17 - Clicked on MyAccount Link
+2025-07-12 21:54:13 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 21:54:13 INFO  TC001_AccountRegistraionTest:17 - Clicked on MyAccount Link
+2025-07-12 21:54:18 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 21:54:18 ERROR TC001_AccountRegistraionTest:46 - Exception: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7f81f9aaaed46f7abc71ffe0748c105, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\devsr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55103/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f81f9aaaed46f7abc71ffe0748c105
+2025-07-12 21:54:19 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 21:54:19 ERROR TC001_AccountRegistraionTest:46 - Exception: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bc6298e897da0c41360bc781692551ed, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55153}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\devsr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55153/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc6298e897da0c41360bc781692551ed
+2025-07-12 21:59:33 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\devsr\eclipse-workspace\OpenCartV121\crossBrowserTesting.xml
+
+2025-07-12 21:59:35 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 21:59:35 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 21:59:36 INFO  TC001_AccountRegistraionTest:17 - Clicked on MyAccount Link
+2025-07-12 21:59:36 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 21:59:36 ERROR TC001_AccountRegistraionTest:46 - Exception: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=138.0.3351.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c5b8c227141b880498c1f02bb2e9edf, clickElement {id=f.92294C61C56A9D826DF73297FEC7E3EB.d.4D64578E9456FFC7EFCA69C5771FC704.e.19}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55270}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\devsr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55270/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7c5b8c227141b880498c1f02bb2e9edf)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: 7c5b8c227141b880498c1f02bb2e9edf
+2025-07-12 21:59:45 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 21:59:45 ERROR TC001_AccountRegistraionTest:46 - Exception: Error communicating with the remote browser. It may have died.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7c5b8c227141b880498c1f02bb2e9edf, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55270}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\devsr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55270/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c5b8c227141b880498c1f02bb2e9edf
+2025-07-12 22:06:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\devsr\eclipse-workspace\OpenCartV121\crossBrowserTesting.xml
+
+2025-07-12 22:06:50 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 22:06:50 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 22:06:52 INFO  TC001_AccountRegistraionTest:17 - Clicked on MyAccount Link
+2025-07-12 22:06:52 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 22:06:52 ERROR TC001_AccountRegistraionTest:46 - Exception: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=138.0.3351.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c59dfc5de064d8c0c512cb5ca24de9e2, clickElement {id=f.52F366707BDA78B20C96EEEC642C660F.d.D670712F95490B2B4F5651A27BA8609F.e.22}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55707}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\devsr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55707/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c59dfc5de064d8c0c512cb5ca24de9e2)] -> xpath: //span[normalize-space()='My Account']]
+Session ID: c59dfc5de064d8c0c512cb5ca24de9e2
+2025-07-12 22:07:02 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 22:07:02 ERROR TC001_AccountRegistraionTest:46 - Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Register']"}
+  (Session info: MicrosoftEdge=138.0.3351.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c59dfc5de064d8c0c512cb5ca24de9e2, findElement {using=xpath, value=//a[normalize-space()='Register']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55707}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\devsr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55707/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c59dfc5de064d8c0c512cb5ca24de9e2
+2025-07-12 22:18:13 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\devsr\eclipse-workspace\OpenCartV121\crossBrowserTesting.xml
+
+2025-07-12 22:18:18 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 22:18:18 INFO  TC001_AccountRegistraionTest:12 - ************ Starting TC001_AccountRegistraionTest***************
+2025-07-12 22:18:18 INFO  TC001_AccountRegistraionTest:17 - Clicked on MyAccount Link
+2025-07-12 22:18:18 INFO  TC001_AccountRegistraionTest:17 - Clicked on MyAccount Link
+2025-07-12 22:18:28 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 22:18:28 ERROR TC001_AccountRegistraionTest:46 - Exception: element not interactable
+  (Session info: MicrosoftEdge=138.0.3351.83)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [edc417592c6dc78a0d5657ae6f613051, clickElement {id=f.7C7C78B0448CF63F03BD3A982289B7DA.d.48AAF4AB42F9CF057EBB5D3B7D61D325.e.108}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56177}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\devsr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56177/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (edc417592c6dc78a0d5657ae6f613051)] -> xpath: //a[normalize-space()='Register']]
+Session ID: edc417592c6dc78a0d5657ae6f613051
+2025-07-12 22:18:38 ERROR TC001_AccountRegistraionTest:45 - Test Failed....
+2025-07-12 22:18:38 ERROR TC001_AccountRegistraionTest:46 - Exception: element not interactable
+  (Session info: MicrosoftEdge=138.0.3351.83)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [edc417592c6dc78a0d5657ae6f613051, clickElement {id=f.7C7C78B0448CF63F03BD3A982289B7DA.d.48AAF4AB42F9CF057EBB5D3B7D61D325.e.108}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56177}, msedge: {msedgedriverVersion: 138.0.3351.83 (16e2a7bef320..., userDataDir: C:\Users\devsr\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56177/devtoo..., se:cdpVersion: 138.0.3351.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (edc417592c6dc78a0d5657ae6f613051)] -> xpath: //a[normalize-space()='Register']]
+Session ID: edc417592c6dc78a0d5657ae6f613051
